@@ -257,7 +257,7 @@ If you set this value to 0, for example, all prefixes even with 0 threads will s
         <tr>
             <td>
                 <xen:if is="{$xenOptions.pfl_showAllLink} && {$xenOptions.pfl_showAllLink.linktext} != ''">
-                    <a href="{xen:link forums, $forum}" class="prefixLink" title="{xen:phrase pfl_all_link_explain}">
+                    <a href="{xen:link forums, $forum}" class="prefixLink Tooltip" title="{xen:phrase pfl_all_link_explain}">
                         <span class="prefixAll">{$xenOptions.pfl_showAllLink.linktext}</span>
                     </a> 
                 </xen:if>
